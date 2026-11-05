@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI, AuthenticationError, OpenAIError
 
 # 1. Add a title to the web page
-st.title("Document Q&A")
+st.title("My Document Q&A")
 st.write("Upload a .txt document, ask a question about it, and OpenAI will answer.")
 
 # 2. Get the user's OpenAI API key
